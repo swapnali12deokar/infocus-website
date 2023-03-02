@@ -52,6 +52,14 @@
         ul li b {
             color: red;
         }
+        .address-section{
+            font-size: 18px;
+            color:blue;
+            padding: 10px;
+        }
+        .address-text{
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -94,7 +102,7 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid  p-0" style="margin-top: 8%;">
+    <div class="container  p-0" style="margin-top: 8%;">
 
         <div class="row g-0" style="background-image:url('img/quote.jpg' )">
             <div class="col-lg-6 py-6 px-5">
@@ -106,23 +114,42 @@
         <h3 class="display-5 mb-4" style="text-align: center;">Contact Us</span></h3>
 
         <div class="row" style="text-align: left;">
-            <div class="col-lg-6 col-md-6">
-                <div class="service-item bg-secondary  px-5">
+            <div class="col-lg-4 col-md-4">
+                <div class="service-item bg-secondary">
+                   <p class="address-section">CALL US NOW</p>
+                  <p> +91 8408904555</p> 
+                  <p> +91 8407904555</p> 
+                </div>
+                <div class="service-item bg-secondary  mt-4">
+                    <p class="address-section">SEND MAIL</p>
+                  <p>hello@iipl.live</p>
 
-                    <b>Address :</b>512,CrossRoads Bhumkar Chowk, Wakad, 411057 Pune Maharashtra 411038
-                    <b>Phone :</b> +91 8408904555
-                    <p><b>Send Mail : </b> hello@iipl.live</p>
-
+                </div>
+                <div class="service-item bg-secondary mt-4">
+                    <p class="address-section">Address </p>
+                   <p class="address-text">512,CrossRoads Bhumkar Chowk, Wakad, 411057 Pune Maharashtra 411038</p>
                 </div>
             </div>
 
 
             <div class="col-lg- col-md-6">
                 <div class="service-item bg-secondary  px-5">
-
-                    <b>Address :</b>512,CrossRoads Bhumkar Chowk, Wakad, 411057 Pune Maharashtra 411038
-                    <b>Phone :</b> +91 8408904555
-                    <p><b>Send Mail : </b> hello@iipl.live</p>
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Name*</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
 
                 </div>
             </div>

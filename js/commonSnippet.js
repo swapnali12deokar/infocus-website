@@ -20,9 +20,18 @@ const header = document.querySelector('#header-snippet');
         <div class="navbar-nav ms-auto py-0 me-n3">
         <a href="index.html" class="nav-item nav-link active">INFOCUS INFOTECH</a>
             <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+            <div class="dropdown">
+  <a class="btn btn-secondary   style="margin-top:20px" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
   
-    <a class="dropdown-item" href="#">digital services</a>
           <a href="service.html" class="nav-item nav-link">Careers</a>
             <a href="our attributes.html" class="nav-item nav-link">Contact Us</a>
             <a href="our attributes.html" class="nav-item nav-link">Search</a>
@@ -34,7 +43,7 @@ const header = document.querySelector('#header-snippet');
 
 const footer = document.querySelector('#footer-snippet');
 footer.innerHTML = `
-<div class="container-fluid bg-dark text-secondary p-5">
+<div class="container bg-dark text-secondary p-5">
 <div class="row g-5">
     <div class="col-lg-3 col-md-6">
         <h3 class="text-white mb-4">Quick Links</h3>
