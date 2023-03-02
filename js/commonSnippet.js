@@ -11,8 +11,6 @@ const header = document.querySelector('#header-snippet');
     <a href="index.html" class="navbar-brand p-0">
     <img class="w-100" src="img/logpng2.png" alt="Image" style="height:81px; border-radius: 50%;">
     </a>
-   
-    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,15 +22,13 @@ const header = document.querySelector('#header-snippet');
   <a class="btn btn-secondary   style="margin-top:20px" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
     Dropdown link
   </a>
-
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <li><a class="dropdown-item" href="#">Action</a></li>
     <li><a class="dropdown-item" href="#">Another action</a></li>
     <li><a class="dropdown-item" href="#">Something else here</a></li>
   </ul>
 </div>
-  
-          <a href="service.html" class="nav-item nav-link">Careers</a>
+    <a href="service.html" class="nav-item nav-link">Careers</a>
             <a href="our attributes.html" class="nav-item nav-link">Contact Us</a>
             <a href="our attributes.html" class="nav-item nav-link">Search</a>
             </div>
@@ -43,7 +39,7 @@ const header = document.querySelector('#header-snippet');
 
 const footer = document.querySelector('#footer-snippet');
 footer.innerHTML = `
-<div class="container bg-dark text-secondary p-5">
+<div class="container-fluid bg-dark text-secondary p-5">
 <div class="row g-5">
     <div class="col-lg-3 col-md-6">
         <h3 class="text-white mb-4">Quick Links</h3>
