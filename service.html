@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CONSULT - Consultancy Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .modal-body{
+        height: 450px;
+        overflow-y: auto;
+    
+    }
+    .navbar a {
+        color: #fff;
+    }
+    .carousel-caption{
+    background: none;
+    top: 256px;
+    }
+    .modal-body{
+    line-height: 37px;
+    background: #50125408;
+    }
+    .modal-body ul {
+      list-style: none;
+    }
+    .modal-body ul li {
+    padding-bottom: 10px;
+}
+    .modal-body ul li::before {
+        content: "\2022";
+        color: red;
+      font-weight: bold;
+      display: inline-block; 
+      width: 1em;
+      margin-left: -1em;
+    
+    }
+    .service-item{
+        position: none;
+    }
+    </style>
+</head>
+
+<div>
+    <!-- Topbar Start -->
+    <!-- <div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-body py-2 pe-3 border-end" href=""><small>FAQs</small></a>
+                    <a class="text-body py-2 px-3 border-end" href=""><small>Support</small></a>
+                    <a class="text-body py-2 px-3 border-end" href=""><small>Privacy</small></a>
+                    <a class="text-body py-2 px-3 border-end" href=""><small>Policy</small></a>
+                    <a class="text-body py-2 ps-3" href=""><small>Career</small></a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-end">
+                <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+                    <div class="me-3 pe-3 border-end py-2">
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@example.com</p>
+                    </div>
+                    <div class="py-2">
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <section id="header-snippet"></section>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+ 
+    <!-- Page Header End -->
+
+
+    <!-- About Start -->
+  
+
+
+    <div class="container-fluid bg-secondary p-0" style="margin-top: 7%;">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item bg-secondary text-center px-5">
+                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                        <i class="fa fa-user-tie fa-2x"></i>
+                    </div>
+                    <h3 class="mb-3">Personality Development</h3>
+                    <p> <b> What you will get after Personality Development Courses?
+                    </b></p>
+                    <p class="mb-0">
+                        It helps you in improving confidence & creating a good & lasting impression on others. & as a result of a good training one can have better personal & professional relationships as well as improved productivity & growth.</p>
+                 <button class="btn btn-block btn-primary " data-toggle="modal" data-target="#myModal">
+                    <i class="material-icons" data-toggle="modal" data-target="#myModal">Read more</i> 
+                </button>
+                <br>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item bg-secondary text-center px-5">
+                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                        <i class="fa fa-chart-pie fa-2x"></i>
+                    </div>
+                    <h4 class="mb-3">Career Development</h4>
+                    <p><b>What you will get for your career growth?</b></p>
+                    <p class="mb-0">Our effective career counselling process helps you to ' Discover your passion identify one’s life purpose and to build a game plan for life. ‘Understand how to apply ones unique skills, talents, values inner resources and life experience to achieve goals</p>
+                    <button class="btn btn-block btn-primary " data-toggle="modal" data-target="#myModal2">
+                        <i class="material-icons">Read more</i>
+                        <br>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item bg-secondary text-center px-5">
+                    <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                        <i class="fa fa-chart-line fa-2x"></i>
+                    </div>
+                    <h3 class="mb-3">Outdoor Activities </h3>
+                    <p><b>How Outdoor Activities will help to change your personality?</b></p>
+                    <p class="mb-0">Corporate outdoor games, sports & activities are becoming extremely popular among the corporate world. We understand the importance of incentive travel as a means to get our students to bond with their future colleagues & feel fresh after a long hard week in the boardroom.</p>
+                    <button class="btn btn-block btn-primary " data-toggle="modal" data-target="#myModal3">
+                        <i class="material-icons">Read more</i>
+                        <br>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <!-- About End -->
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-fluid py-6 px-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+            <h1 class="display-5 mb-0">Our Team Members</h1>
+            <hr class="w-25 mx-auto bg-primary">
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-4">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/2.jpg" alt="">
+                    <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
+                        <h3 class="text-white">Full Name</h3>
+                        <p class="text-white text-uppercase mb-0">Designation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/2.jpg" alt="">
+                    <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
+                        <h3 class="text-white">Full Name</h3>
+                        <p class="text-white text-uppercase mb-0">Designation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="img/2.jpg" alt="">
+                    <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
+                        <h3 class="text-white">Full Name</h3>
+                        <p class="text-white text-uppercase mb-0">Designation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+    
+</div>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-secondary p-5">
+        <div class="row g-5">
+            <div class="col-12 text-center">
+                <h1 class="display-5 mb-4">Stay Update!!!</h1>
+                <form class="mx-auto" style="max-width: 600px;">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                        <button class="btn btn-dark px-4">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container-fluid bg-dark text-secondary p-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-white mb-4">Quick Links</h3>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog Post</a>
+                    <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-white mb-4">Popular Links</h3>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                    <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog Post</a>
+                    <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-white mb-4">Get In Touch</h3>
+                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Office no. 405, 4th floor, Business Hub, Karvenagar, Kothrud, Pune Maharashtra 411038</p>
+                <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>sales@amitsawai.com</p>
+                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 7387283476</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-white mb-4">Follow Us</h3>
+                <div class="d-flex">
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <p class="m-0">&copy; <a class="text-secondary border-bottom" href="#">Your Site Name</a>. All Rights Reserved. Designed by <a class="text-secondary border-bottom" href="https://next-gen-iot.com/">NextGenTec</a></p>
+    </div> -->
+    <section id="footer-snippet"></section>
+    <!-- Footer End -->
+
+
+    <!-- model 1 -->
+    <div class="modal fade show" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document" style="max-width: 70%;">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <h5 class="modal-title">Personality Development</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">clear</i>
+                    </button>
+                    
+                    
+                </div>
+                <div class="modal-body">
+                    <ul >
+                        <li>
+                           <b style="color: red;">Communication Skills –</b>  Good communication also improves relationships, both with employees and in your personal life with friends and family members. Listening carefully and offering quality feedback helps people to feel heard and understood. This, in turn, nurtures mutual respect.
+                        </li>
+                        <li>
+                         <b style="color: red;">Phonics –</b> Phonics can benefit yours overall pronunciation, a basic understanding of language and long-term communication skills. Moreover, it will make you better readers and writers, helping you communicate your perspectives efficiently. Phonics education also makes learning a fun and effective process.
+                        </li>
+                        <li>
+                           <b style="color: red;"> Self-Presentation – </b> Self-presentation make certain impressions on others to maintain a sense of who you are, or your self-concept.
+                        </li>
+                        <li>
+                           <b style="color: red;"> Conversations within two candidates – </b>  With these skills, you can convey a sense of confidence and ensure that your audience understands your message or expectations.
+                        </li>
+                        <li>
+                           <b style="color: red;"> Leadership Courses – </b> Successful leaders are able to transform organizations, enhance value creation, create efficiencies and engage their employees to deliver better results. Through leadership skills training, managers can learn how to create a vision for their team and how to inspire others to achieve it.
+                        </li>
+                        <li>
+                           <b style="color: red;"> Group Discussion – </b> Group Discussion (GD) is a method of learning where you discuss issues and ideas together. In GD, you work in groups to solve problems and learn from each other. It helps you to develop your critical thinking skills, problem-solving abilities, and communication skills.
+                        </li>
+                        <li>
+                            <b style="color: red;"> Positive Thinking – </b> Not only can positive thinking improve mental health and improve your outlook on life, it can also greatly benefit your physical and emotional well-being. According to researchers at the Mayo Clinic, positive thinking can help manage stress, which has added health benefits including: a strengthened immune system.
+                        </li>
+                        <li>
+                           <b style="color: red;">Body Language – </b> Good body language skills can help you motivate direct reports, bond with audiences, present ideas with added credibility, and authentically project your personal brand of charisma. That's a powerful set of skills for any leader to develop.
+                        </li>
+                        <li>
+                           <b style="color: red;"> Emotional Intelligence – </b> Ability to understand how others are feeling, is absolutely critical to emotional intelligence. But it involves more than just being able to recognize the emotional states of others. It also involves your responses to people based on this information.
+                        </li>
+                        <li>
+                           <b style="color: red;"> Time & Stress Management – </b> Time management in the workplace is a skill that can benefit any employee. By learning how to manage your time, you can improve your work life, increase your productivity, lower your stress and build a positive work-life balance.
+                        </li>
+                    </ul>	
+                </div>
+
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btn-primary " data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- model 2 -->
+     <div class="modal fade show" id="myModal2" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document" style="max-width: 70%;">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <h5 class="modal-title">Career Development</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">clear</i>
+                    </button>
+                    
+                    
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                           <b style="color: red;"> Corporate Etiquettes –</b>  Knowledge of Corporate Etiquette helps you to behaving sensibly and appropriately at the workplace to create an everlasting impression.
+                        </li>
+                        <li>
+                           <b style="color: red;"> How to choose correct field – </b> The process of career planning helps the individual to be aware of various career opportunities. Life as we see every day has become fast paced and highly competitive, having a career plan will give you clarity when selecting the right profession for you and also help you set your priorities right.
+                        </li>
+                        <li>
+                          <b style="color: red;">  Resume Developing – </b> Resume Developing skill will help you to grabs the attention of employers and recruiters. Sells your strongest skills and accomplishments. Shows how you're a match for a position or project.
+                        </li>
+                        <li>
+                           <b style="color: red;"> Interview Preparations – </b> By doing some preparation you'll feel more in control, and will appear cool, calm and collected as a result to your prospective employers – qualities always looked for in the perfect candidate.
+                        </li>
+                        <li>
+                          <b style="color: red;"> Tricks to Crack Interview – </b> This can show you if you lack a particular skill. Plan how you will address this in the interview so you can convince the interviewer that you can learn the skill.
+                        </li>
+                        <li>
+                            <b style="color: red;">  How to answer confidently – </b> Lack of interview confidence can easily give you away, making the interviewers underestimate your real skills and genuine interests.
+                        </li>
+                        <li>
+                            <b style="color: red;"> Corporate Presentations – </b> By developing corporate presentation skills, you are learning more about your work or business, are able to conduct your way through people, and the ability to create your own network increases. It helps you build your morale, and makes you believe in yourself.
+                        </li>
+                        
+                    </ul>	
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btn-primary " data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---model3-->
+    <div class="modal fade show" id="myModal3" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document" style="max-width: 70%;">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <h5 class="modal-title">Outdoor activitys</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="material-icons">clear</i>
+                    </button>
+                    
+                    
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            <b style="color: red;"> Corporate Visits – </b> It provides students with an opportunity to learn practically through interaction, working methods and employment practices. It gives them exposure to current work practices as opposed to possibly theoretical knowledge being taught at college.
+                         </li>
+                        <li>
+                            <b style="color: red;"> NGO Visits – </b> All NGO visits gave our students an awareness of the existence of poor, downtrodden lifestyle and also a feeling to acknowledge their own good fortune and created a sense of duty towards those less fortunate which is the need of the hour for our country's development.
+
+                        </li>
+                        <li>
+                            <b style="color: red;">  Trekking – </b> Trekking can make you enjoy the simple joys of nature; lush greenery, a variety of trees, wildflowers growing on mountain slopes, gorgeous meadows and suddenly you realize it’s time to go back to nature!
+                        </li>
+                        
+                    </ul>	
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btn-primary " data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="./js/commonSnippet.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+</body>
+
+</html>
