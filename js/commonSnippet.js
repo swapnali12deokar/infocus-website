@@ -19,16 +19,8 @@ const header = document.querySelector('#header-snippet');
         <div class="navbar-nav ms-auto py-0 me-n3">
         <a href="index.html" class="nav-item nav-link active">INFOCUS INFOTECH</a>
             <a href="index.html" class="nav-item nav-link active">Home</a>
-            <div class="dropdown">
-  <a class="btn btn-secondary   style="margin-top:20px" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown link
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</div>
+            <a href="about.html" class="nav-item nav-link active">services</a>
+
     <a href="service.html" class="nav-item nav-link">Careers</a>
             <a href="our attributes.html" class="nav-item nav-link">Contact Us</a>
             <a href="our attributes.html" class="nav-item nav-link">Search</a>
