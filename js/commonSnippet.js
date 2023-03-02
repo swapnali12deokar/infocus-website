@@ -11,6 +11,7 @@ const header = document.querySelector('#header-snippet');
     <a href="index.html" class="navbar-brand p-0">
     <img class="w-100" src="img/logpng2.png" alt="Image" style="height:81px; border-radius: 50%;">
     </a>
+    <a href="index.html" class="nav-item nav-link active">INFOCUS INFOTECH</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
