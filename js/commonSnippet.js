@@ -1,6 +1,6 @@
 
 const header = document.querySelector('#header-snippet');
-    header.innerHTML = `<nav class="navbar navbar-expand-lg  navbar-light shadow-sm px-5 py-3 py-lg-0" style="
+header.innerHTML = `<nav class="navbar navbar-expand-lg  navbar-light shadow-sm px-5 py-3 py-lg-0" style="
     top: 0;
     left: 0;
     width: 100%;
@@ -20,16 +20,14 @@ const header = document.querySelector('#header-snippet');
             <a href="index.html" class="nav-item nav-link active">Home</a>
             <a href="services.html" class="nav-item nav-link active">services</a>
 
-    <a href="career.html" class="nav-item nav-link">Careers</a>
-   
-            <a href="contact us.html" class="nav-item nav-link">Contect Us</a>
-            
-           <div class="search-container">
+         <a href="careers.html" class="nav-item nav-link">Careers</a>
+            <a href="contactUs.html" class="nav-item nav-link">Contact Us</a>
+            <div class="search-container">
     
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    
-  </div>
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          
+        </div>
             </div>
           
         </div>
@@ -44,11 +42,11 @@ footer.innerHTML = `
         <h3 class="text-white mb-4">Quick Links</h3>
         
         <div class="d-flex flex-column justify-content-start">
-            <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+            <a class="text-secondary mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
             <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>
             searvices</a>
-            <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Careers</a>
-            <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+            <a class="text-secondary mb-2" href="careers.html"><i class="bi bi-arrow-right text-primary me-2"></i>Careers</a>
+            <a class="text-secondary" href="contactUs.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
         </div>
     </div>
 
@@ -61,7 +59,6 @@ footer.innerHTML = `
             <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://twitter.com/InfotechInfocus"><i class="fab fa-twitter fw-normal"></i></a>
             <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.facebook.com/iipl.live"><i class="fab fa-facebook-f fw-normal"></i></a>
             <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.linkedin.com/company/infocusinfotech/"><i class="fab fa-linkedin-in fw-normal"></i></a>
-            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href=""><i class="fab fa-instagram fw-normal"></i></a>
     </div>
    <div class="col-lg-6 col-md-6">
 
