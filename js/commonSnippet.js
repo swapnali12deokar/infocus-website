@@ -18,7 +18,7 @@ header.innerHTML = `<nav class="navbar navbar-expand-lg  navbar-light shadow-sm 
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0 me-n3"> 
             <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="services.html" class="nav-item nav-link active">services</a>
+            <a href="services.html" class="nav-item nav-link">services</a>
 
          <a href="careers.html" class="nav-item nav-link">Careers</a>
             <a href="contactUs.html" class="nav-item nav-link">Contact Us</a>
