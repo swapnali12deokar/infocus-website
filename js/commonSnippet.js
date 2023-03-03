@@ -11,19 +11,25 @@ const header = document.querySelector('#header-snippet');
     <a href="index.html" class="navbar-brand p-0">
     <img  src="img/infocus.jpeg" alt="Image" style="height:80px"; "width:50px">
     </a>
-    <a href="index.html" class="nav-item nav-link active">INFOCUS INFOTECH</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <a class="">INFOCUS INFOTECH</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" btn btn-primary>
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto py-0 me-n3">
-        <a href="index.html" class="nav-item nav-link active">INFOCUS INFOTECH</a>
+        <div class="navbar-nav ms-auto py-0 me-n3"> 
             <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link active">services</a>
+            <a href="services.html" class="nav-item nav-link active">services</a>
 
-    <a href="service.html" class="nav-item nav-link">Careers</a>
-            <a href="our attributes.html" class="nav-item nav-link">Contact Us</a>
-            <a href="our attributes.html" class="nav-item nav-link">Search</a>
+    <a href="career.html" class="nav-item nav-link">Careers</a>
+   
+            <a href="contact us.html" class="nav-item nav-link">Contect Us</a>
+            
+           <div class="search-container">
+    
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    
+  </div>
             </div>
           
         </div>
@@ -52,7 +58,7 @@ footer.innerHTML = `
         <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>hello@iipl.live</p>
         <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 8408904555</p>
         <br>
-            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://twitter.com/InfotechInfocus"><i class="fab fa-twitter fw-normal"></i></a>
             <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.facebook.com/iipl.live"><i class="fab fa-facebook-f fw-normal"></i></a>
             <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.linkedin.com/company/infocusinfotech/"><i class="fab fa-linkedin-in fw-normal"></i></a>
             <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href=""><i class="fab fa-instagram fw-normal"></i></a>
