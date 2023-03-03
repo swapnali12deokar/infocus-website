@@ -5,11 +5,11 @@ const header = document.querySelector('#header-snippet');
     left: 0;
     width: 100%;
     height: auto;
-    background: rgb(9 11 22 / 85%);;
+    background: rgb(9 11 22 / 85%);
     z-index: 9;
     color: #fff;">
     <a href="index.html" class="navbar-brand p-0">
-    <img class="w-100" src="img/logpng2.png" alt="Image" style="height:81px; border-radius: 50%;">
+    <img  src="img/infocus.jpeg" alt="Image" style="height:80px"; "width:50px">
     </a>
     <a href="index.html" class="nav-item nav-link active">INFOCUS INFOTECH</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
