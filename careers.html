@@ -89,77 +89,79 @@
             color: white;
             border-radius: 5px;
             padding: 10px;
-            margin-left: 5px;
+            margin-left: 10px;
+            margin-bottom: 20px;
             background-color: rgb(107, 113, 131);
         }
 
         .skill-text {
             color: #4c2ba8;
         }
-    </style>
+    </style>  
 </head>
 
 <div>
-
     <!-- Navbar Start -->
     <section id="header-snippet"></section>
+    <h1 style="text-align:center; color: #F3525A;">Careers</h1>
 
-    <div class="container  p-0" style="margin-top: 8%;">
+    <div class="container  p-0" style="margin-top: 2%;">
         <div class="row g-0" style="background-image:url('img/quote.jpg' )">
             <div class="col-lg-6 py-6 px-5">
             </div>
         </div>
-
         <div class="row g-5 m-2">
             <div class="col-lg-4 col-md-4">
-                <div class="service-item  text-center p-2">
+                <div class="service-item  p-2">
                     <div class="d-flex align-items-center justify-content-center  text-white rounded-circle mx-auto mb-4"
                         style="width: 90px; height: 90px;">
                         <i class="fa fa-user-tie fa-2x"></i>
                     </div>
                     <h3 class="skill-text">Web Development</h3>
-                    <p>
+                    <p style="text-align: justify;">
                         Bachelor's degree in computer science, software engineering, or a related field
                         Proficiency in programming languages such as HTML, CSS, JavaScript, and PHP
                         Knowledge of web development frameworks such as React, Angular, and Vue.js
                         Understanding of web development tools and platforms such as Git, Node.js, and WordPress
                         Understanding of web design principles, user experience (UX), and user interface (UI) design
                         Excellent communication and teamwork skills</p>
-                    <br>
+                    
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
-                <div class="service-item bg-secondary text-center p-2">
+                <div class="service-item bg-primary p-2">
                     <div class="d-flex align-items-center justify-content-center  text-white rounded-circle mx-auto mb-4"
                         style="width: 90px; height: 90px;">
                         <i class="fa fa-chart-pie fa-2x"></i>
                     </div>
                     <h4 class="skill-text">MobileApp Development</h4>
-                    <p>Bachelor's degree in computer science, software engineering, or a related field
+                    <p style="text-align:justify;">
+                        Bachelor's degree in computer science, software engineering, or a related field
                         Proficiency in programming languages such as Java, Kotlin, Swift, and Objective-C
                         Experience with mobile app development frameworks such as React Native and Flutter
                         Knowledge of app development tools and platforms such as Android Studio, Xcode, and Unity
                         Understanding of software development processes and methodologies such as Agile and Scrum
                         Strong analytical and problem-solving skills
-                        Excellent communication and teamwork skills</p>
+                       </p>
+                      
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
-                <div class="service-item  text-center p-2">
+            <div class="col-lg-4 col-md-4 justify-content-start">
+                <div class="service-item p-2">
                     <div class="d-flex align-items-center justify-content-center  text-white rounded-circle mx-auto mb-4"
                         style="width: 90px; height: 90px;">
                         <i class="fa fa-chart-line fa-2x"></i>
                     </div>
-                    <h3 class="mb-3">Digital Marketing </h3>
+                    <h3 class="skill-text">Digital Marketing </h3>
 
-                    <p style="justify-content:center">Bachelor's degree in marketing, communications, or a related field
+                    <p style="text-align: justify;">Bachelor's degree in marketing, communications, or a related field
                         Certification in digital marketing such as Google Ads certification, HubSpot Inbound Marketing
                         Certification, and Hootsuite Social Media Marketing Certification
                         Practical experience in digital marketing through internships, freelancing, or personal projects
                         Knowledge of digital marketing tools and software such as Google Analytics, SEMrush, and
                         Mailchimp
                         Strong analytical and creative skills
-                        Excellent communication and teamwork skills</p>
+                        </p>
                 </div>
             </div>
         </div>
@@ -170,82 +172,66 @@
             <div class="row p-3">
                 <div class="col">
                     <label>Name :</label>
-                    <input type="text" class="form-control" placeholder="Enter the full Name">
+                    <input type="text" class="form-control" placeholder="Enter The Full Name">
                 </div>
                 <div class="col">
                     <label>Email :</label>
                     <input type="text" class="form-control" placeholder="Enter The Email">
                 </div>
-
             </div>
             <div class="row p-3">
                 <div class="col">
                     <label>Mobile :</label>
-                    <input type="text" class="form-control" placeholder="Enter the Mobile number">
+                    <input type="text" class="form-control" placeholder="Enter The Mobile Number">
                 </div>
                 <div class="col">
                     <label>DOB :</label>
                     <input type="text" class="form-control" placeholder="Enter The DOB">
                 </div>
+                </div>
                 <div class="row p-3">
                     <div class="col">
-                        <label>Qualification:</label>
-                        <input type="text" class="form-control" placeholder="Enter the Qualification">
+                        <label>Qualification :</label>
+                        <input type="text" class="form-control" style="width: 100%;" placeholder="Enter The Your Qualification">
+                   
                     </div>
                 </div>
-
-                <div class="row ">
+                <div class="row p-3">
                   <label> Gender:</label>
-                        <input class="form-check-input" type="radio" id="radio1" name="optradio" value="option1"
-                            checked;>Male
-                 
-
-                   
-                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Female
-                  
-
-                   
-                        <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">Others
-                   
-
+                        <fieldset>
+                            <div class="some-class">
+                              <input type="radio" class="radio" name="x" value="z" id="z" />
+                              <label for="x">Male</label>
+                              <input type="radio" class="radio" name="x" value="y" id="y" />
+                              <label for="y">Female</label>
+                              <input type="radio" class="radio" name="x" value="z" id="z" />
+                              <label for="z">Others</label>
+                            </div>
+                          </fieldset>
                 </div>
                 <div class="row p-3">
                     <div class="col-lg-12">
-                        <label>Apply For the Job:</label>
-                        <select class="form-select" aria-label="Default select example">
+                        <label>Apply For the Job:</label><br>
+                        <select class="form-select" aria-label="select Itam">
                             <option selected>Web development</option>
                             <option value="1">Mobile App Development</option>
                             <option value="2">Digital Marketing</option>
                         </select>
                     </div>
                 </div>
-                <div class="m-3">
+                <div>
                     <button class="btn-section" type="submit">Submit</button>
-                </div>
-            </div>
+                </div>    
         </form>
     </div>
-
-
 </div>
-
-
-
-
 <section id="footer-snippet"></section>
 <!-- Footer End -->
-
-
 <!-- model 1 -->
-
 </div>
 <!---model3-->
-
-
 <!-- Back to Top -->
 <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -266,5 +252,4 @@
     integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
     crossorigin="anonymous"></script>
 </body>
-
 </html>

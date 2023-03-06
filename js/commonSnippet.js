@@ -11,7 +11,7 @@ header.innerHTML = `<nav class="navbar navbar-expand-lg  navbar-light shadow-sm 
     <a href="index.html" class="navbar-brand p-0">
     <img  src="img/infocus.jpeg" alt="Image" style="height:80px"; "width:50px">
     </a>
-    <a class="">INFOCUS INFOTECH</a>
+    <h3 style=color:#fff>INFOCUS INFOTECH</h3>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" btn btn-primary>
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -61,11 +61,12 @@ footer.innerHTML = `
             <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.linkedin.com/company/infocusinfotech/"><i class="fab fa-linkedin-in fw-normal"></i></a>
     </div>
    <div class="col-lg-6 col-md-6">
-
+   <iframe
+                src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.3000760752234!2d73.75056641436998!3d18.60556807142631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9407e30875d%3A0xd3df7c9e0eb2dd7!2sInfocus%20Infotech%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1677670739095!5m2!1sen!2sin"
+                width="100%" height="270px" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div> 
-    <div class="col-lg-3 col-md-6">
-     
-    </div>
+
 </div>
 </div>
 <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5" style="border-color: rgba(256, 256, 256, .1) !important;">
