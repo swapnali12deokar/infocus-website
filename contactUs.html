@@ -70,6 +70,8 @@
             margin-left: 5px;
             background-color: royalblue;
         }
+
+
     </style>
 </head>
 <div>
@@ -111,24 +113,36 @@
                     <p class="address-text">512,CrossRoads Bhumkar Chowk, Wakad, 411057 Pune Maharashtra 411038</p>
                 </div>
             </div>
+          
+            <!-- <div class="col-lg-8 col-md-8">
+                <form action="mail.php" method="POST">
+                    <input type="text" name="name" placeholder="name" required>
+                    <input type="email" name="email"  required placeholder="email">
+                    <input type="text" placeholder="Mobilenumber">
+                    <textarea name="message" required></textarea>
+                    <button type="submit">Submit Form</button>
+                
+                </form>
+              </div> -->
+             
             <div class="col-lg-8 col-md-8">
                 <div class="row service-item bg-secondary">
-                    <form>
+                    <form action="mail.php" method="POST">
                         <div class="m-3">
                             <label>Name*</label>
-                            <input type="text" class="form-control" placeholder="Enter the full Name">
+                            <input type="text" name="name"  required class="form-control" placeholder="Enter the full Name">
                         </div>
                         <div class="m-3">
                             <label>Phone*</label>
-                            <input type="text" class="form-control" placeholder="Enter the Mobile Number">
+                            <input type="text"  name="number" required  class="form-control" placeholder="Enter the Mobile Number">
                         </div>
                         <div class="m-3">
                             <label>Email*</label>
-                            <input type="email" class="form-control" placeholder="Enter the Email">
+                            <input type="email" name="email"  required  class="form-control" placeholder="Enter the Email">
                         </div>
                         <div class="m-3">
                             <label>Message</label>
-                            <textarea class="form-control" placeholder="Message"></textarea>
+                            <textarea class="form-control" placeholder="Message" type ="text" name="message" required></textarea>
                         </div>
                         <div class="m-3">
                             <button class="btn-section" type="submit">Submit</button>
@@ -166,6 +180,28 @@
     <!-- Template Javascript -->
     <script src="./js/commonSnippet.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Hello World";
+        }
+        </script>
+    <!-- <script>
+        function sendMail(){
+   Email.send({
+    Host : "https://cpl15.main-hosting.eu:2083",
+    Username : "iipl5578",
+    Password : "Iipl512",
+    To : 'hello@iipl.live',
+    From : document.getElementById("email").value,
+    Subject : "NoReplay",
+    Body : "hello"
+}).then(
+  message => alert(message)
+);
+        }
+</script> -->
     </body>
 
 </html>
